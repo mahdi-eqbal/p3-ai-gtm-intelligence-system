@@ -1,0 +1,7 @@
+﻿company_name,domain,country,employee_count,industry,business_model,source,research_status
+SignalForge,signalforge.example,Germany,260,B2B SaaS,SaaS,Synthetic Test Set,Pending
+Northstar AI,northstar-ai.example,United States,420,AI Software,SaaS,Synthetic Test Set,Pending
+BrightOps,brightops.example,Netherlands,85,Operations Software,SaaS,Synthetic Test Set,Pending
+MegaStack,megastack.example,United Kingdom,1800,Enterprise Software,SaaS,Synthetic Test Set,Pending
+TinyWorks,tinyworks.example,Germany,12,Software,SaaS,Synthetic Test Set,Pending
+Unknown Labs,,,,,,Synthetic Test Set,Pending
