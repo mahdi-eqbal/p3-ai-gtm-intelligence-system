@@ -1,15 +1,38 @@
-# P3 Evidence Manifest
+﻿# P3 Evidence Manifest
 
-## Core integration evidence
-- `06-signal-account-lookup.png` — multi-row domain lookup linking job-posting events to target accounts.
-- `07-signal-record-schema.png` — returned signal record fields including Job Title, Post On, Company Domain, and Job LinkedIn URL.
-- `08-signal-context-integration.png` — account-level GTM job signal summary derived from lookup results.
-- `09-latest-signal-date.png` — latest matched job-posting date extracted for timing logic.
-- `10-human-review-routing.png` — human-in-the-loop routing showing evidence uncertainty triggering Manual Review.
-- `11-actionable-accounts-view.png` — delivery view of auto-approved prioritized accounts.
-- `12-manual-review-queue.png` — isolated real-account manual review queue.
+## Core Clay Evidence
 
-## Delivery artifact
-- `exports/actionable-accounts.csv` — exported downstream-ready actionable account dataset.
+01-target-accounts-before-enrichment.png
+Raw target-account dataset before enrichment.
 
-These artifacts document the final signal integration, scoring/governance, and delivery stages of P3.
+02-company-enrichment-results.png
+Real company enrichment results in Clay.
+
+03-job-posting-signal-preview.png
+GTM job-posting signal preview across target accounts.
+
+clay/04-signal-account-lookup.png
+Multi-row lookup linking job-posting events back to target accounts.
+
+clay/05-signal-record-schema.png
+Underlying Clay job-signal record structure including title, posting date, domain and URL.
+
+clay/06-signal-context-integration.png
+Account-level signal context produced from matched Clay job events.
+
+clay/07-latest-signal-date.png
+Latest matched signal date extracted for recency scoring.
+
+clay/08-human-review-routing.png
+Human-in-the-loop governance using confidence, uncertainty and review status.
+
+clay/09-actionable-accounts-view.png
+Final prioritized auto-approved GTM account delivery view.
+
+clay/10-manual-review-queue.png
+Dedicated queue for accounts requiring human validation.
+
+## Export Evidence
+
+exports/actionable-accounts.csv
+Delivery-ready actionable-account dataset exported from Clay.
