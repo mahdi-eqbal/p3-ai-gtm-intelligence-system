@@ -1,7 +1,8 @@
-# P3 — AI-Assisted GTM Intelligence & Account Prioritization System
+﻿# P3 â€” AI-Assisted GTM Intelligence & Account Prioritization System
 
 An evidence-aware GTM intelligence implementation that transforms raw B2B account data into enriched, explainable, prioritized, and operationally actionable account decisions.
 
+[![Repository Quality Checks](https://github.com/mahdi-eqbal/p3-ai-gtm-intelligence-system/actions/workflows/repository-quality.yml/badge.svg)](https://github.com/mahdi-eqbal/p3-ai-gtm-intelligence-system/actions/workflows/repository-quality.yml)
 ![Case Study](https://img.shields.io/badge/type-independent_case_study-334155)
 ![Status](https://img.shields.io/badge/status-implemented_and_validated-15803d)
 ![Platform](https://img.shields.io/badge/platform-Clay-6f42c1)
@@ -53,25 +54,25 @@ flowchart TD
 
 ```text
 Raw Account List
-    ↓
+    â†“
 Real / Synthetic Record Separation
-    ↓
+    â†“
 Company Enrichment
-    ↓
+    â†“
 GTM Job-Signal Monitoring
-    ↓
+    â†“
 Signal-to-Account Resolution
-    ↓
+    â†“
 Signal Context Generation
-    ↓
+    â†“
 Claygent Web Research + Structured Intelligence
-    ↓
+    â†“
 Deterministic Fit, Signal, Confidence, and Timing Scores
-    ↓
+    â†“
 Priority Tier + Human Review Gate
-    ↓
+    â†“
 Actionable Accounts or Manual Review Queue
-    ↓
+    â†“
 CSV Delivery Export
 ```
 
@@ -139,8 +140,8 @@ The latest matched signal date is converted into an explicit recency component:
 | Signal age | Timing score |
 |---|---:|
 | Within 30 days | 10 |
-| 31–90 days | 7 |
-| 91–180 days | 3 |
+| 31â€“90 days | 7 |
+| 91â€“180 days | 3 |
 | Older or unavailable | 0 |
 
 ### Human-in-the-Loop Governance
@@ -153,8 +154,8 @@ Confidence, evidence quality, uncertainty, and priority state are evaluated sepa
 
 The system produces two operational outputs:
 
-- **Actionable Accounts** — sufficiently supported accounts ready for downstream GTM use;
-- **Manual Review Queue** — accounts requiring human judgment before action.
+- **Actionable Accounts** â€” sufficiently supported accounts ready for downstream GTM use;
+- **Manual Review Queue** â€” accounts requiring human judgment before action.
 
 ![Actionable accounts view](evidence/clay/09-actionable-accounts-view.png)
 
@@ -197,13 +198,13 @@ The complete index is available in the [Evidence Manifest](evidence/EVIDENCE-MAN
 
 ```text
 p3-ai-gtm-intelligence-system/
-├── docs/         # Project brief, ICP, scoring, implementation, and AI governance documentation
-├── evidence/     # Clay workflow evidence and delivery exports
-├── sample-data/  # Public-safe account data for inspection and testing
-├── schemas/      # Structured AI output contracts
-├── .gitignore
-├── README.md
-└── TEST-MATRIX.md
+â”œâ”€â”€ docs/         # Project brief, ICP, scoring, implementation, and AI governance documentation
+â”œâ”€â”€ evidence/     # Clay workflow evidence and delivery exports
+â”œâ”€â”€ sample-data/  # Public-safe account data for inspection and testing
+â”œâ”€â”€ schemas/      # Structured AI output contracts
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ README.md
+â””â”€â”€ TEST-MATRIX.md
 ```
 
 ## How to Review the Implementation
@@ -241,3 +242,4 @@ p3-ai-gtm-intelligence-system/
 ---
 
 Built by [Mahdi Eqbal](https://github.com/mahdi-eqbal) as an independent Revenue Systems / GTM Engineering implementation case study.
+
