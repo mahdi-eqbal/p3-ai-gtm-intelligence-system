@@ -2,6 +2,7 @@
 
 An evidence-aware GTM intelligence implementation that transforms raw B2B account data into enriched, explainable, prioritized, and operationally actionable account decisions.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Repository Quality Checks](https://github.com/mahdi-eqbal/p3-ai-gtm-intelligence-system/actions/workflows/repository-quality.yml/badge.svg)](https://github.com/mahdi-eqbal/p3-ai-gtm-intelligence-system/actions/workflows/repository-quality.yml)
 ![Case Study](https://img.shields.io/badge/type-independent_case_study-334155)
 ![Status](https://img.shields.io/badge/status-implemented_and_validated-15803d)
@@ -242,4 +243,5 @@ p3-ai-gtm-intelligence-system/
 ---
 
 Built by [Mahdi Eqbal](https://github.com/mahdi-eqbal) as an independent Revenue Systems / GTM Engineering implementation case study.
+
 
